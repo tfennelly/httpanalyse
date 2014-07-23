@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" name="Default" comment="target">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/SSLAnalyse.java" afterPath="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/SSLAnalyse.java" />
+    <list default="true" id="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpanalyse.iws" afterPath="$PROJECT_DIR$/httpanalyse.iws" />
     </list>
     <ignored path="httpanalyse.iws" />
@@ -11,7 +10,7 @@
     <file path="/fragment.java" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406107488842" ignored="false" />
     <file path="/HttpResponseImpl.java" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406107544235" ignored="false" />
     <file path="/SSLAnalyse.java" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406109979915" ignored="false" />
-    <file path="/Dummy.txt" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406110050239" ignored="false" />
+    <file path="/Dummy.txt" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406110061714" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -795,7 +794,11 @@
       <created>1406109130301</created>
       <updated>1406109130301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="certs">
+      <created>1406110066197</created>
+      <updated>1406110066197</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -888,7 +891,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="target" />
+    <option name="LAST_COMMIT_MESSAGE" value="certs" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -903,6 +906,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="target" />
+    <MESSAGE value="certs" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
