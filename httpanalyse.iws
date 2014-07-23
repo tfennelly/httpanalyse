@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpanalyse.iml" afterPath="$PROJECT_DIR$/httpanalyse.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpanalyse.ipr" afterPath="$PROJECT_DIR$/httpanalyse.ipr" />
+    <list default="true" id="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" name="Default" comment="target">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/SSLAnalyse.java" afterPath="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/SSLAnalyse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpanalyse.iws" afterPath="$PROJECT_DIR$/httpanalyse.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="httpanalyse.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/HttpAnalyse.java" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406107193135" ignored="false" />
     <file path="/fragment.java" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406107488842" ignored="false" />
     <file path="/HttpResponseImpl.java" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406107544235" ignored="false" />
-    <file path="/SSLAnalyse.java" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406108211724" ignored="false" />
-    <file path="/Dummy.txt" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406109078558" ignored="false" />
+    <file path="/SSLAnalyse.java" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406109979915" ignored="false" />
+    <file path="/Dummy.txt" changelist="86c1a750-db33-4a79-b6f9-30fb1fab3e3a" time="1406110050239" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +138,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/security/X509CertUtil.java" line="21" class="org.tfennelly.httpanalyse.common.security.X509CertUtil" package="org.tfennelly.httpanalyse.common.security">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <exception_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -209,10 +223,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SSLAnalyse.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SSLAnalyse.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/SSLAnalyse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+            <state line="24" column="36" selection-start="865" selection-end="865" vertical-scroll-proportion="0.32181168">
               <folding />
             </state>
           </provider>
@@ -236,10 +250,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="TrustManagerUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/security/TrustManagerUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="823" selection-end="823" vertical-scroll-proportion="0.4648391">
+            <state line="19" column="13" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="X509CertUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/security/X509CertUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -266,7 +289,7 @@
       <file leaf-file-name="HttpResponseImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/HttpResponseImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="38" selection-start="2814" selection-end="2814" vertical-scroll-proportion="0.0">
+            <state line="102" column="93" selection-start="3068" selection-end="3068" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -311,10 +334,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/security/AESUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/HttpResponseImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/HttpClientImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/HttpResponseImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/SSLAnalyse.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/util/ClasspathUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/HttpResponseImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/SSLAnalyse.java" />
       </list>
     </option>
   </component>
@@ -553,6 +576,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpanalyse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpanalyse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpanalyse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -611,7 +668,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="httpanalyse" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -728,6 +791,11 @@
       <created>1406107052908</created>
       <updated>1406107052908</updated>
     </task>
+    <task id="LOCAL-00001" summary="target">
+      <created>1406109130301</created>
+      <updated>1406109130301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -751,7 +819,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995363" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -766,7 +834,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17939539" sideWeight="0.67001545" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58037096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -820,7 +888,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="target" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -834,6 +902,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="target" />
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -895,20 +964,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/HttpResponseImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="99" column="38" selection-start="2814" selection-end="2814" vertical-scroll-proportion="0.0">
@@ -965,20 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/HttpResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/HttpResponseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="38" selection-start="2814" selection-end="2814" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/util/ClasspathUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
@@ -986,9 +1027,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/SSLAnalyse.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+        <state line="26" column="0" selection-start="823" selection-end="823" vertical-scroll-proportion="0.4648391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/security/X509CertUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1000,9 +1048,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/security/TrustManagerUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="823" selection-end="823" vertical-scroll-proportion="0.4648391">
+        <state line="19" column="13" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/common/HttpResponseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="93" selection-start="3068" selection-end="3068" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tfennelly/httpanalyse/SSLAnalyse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="36" selection-start="865" selection-end="865" vertical-scroll-proportion="0.32181168">
           <folding />
         </state>
       </provider>
