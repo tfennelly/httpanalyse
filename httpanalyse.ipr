@@ -22,6 +22,9 @@
         <module name="httpanalyse" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="httpanalyse" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="">
     <module2copyright />
@@ -214,7 +217,7 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="Maven: junit:junit:4.11">
